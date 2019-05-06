@@ -1,8 +1,8 @@
 <template>
-
+  <div class="header-nav">
     <div class="el-header-nav">
       <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
-        <el-menu-item index="1">首页</el-menu-item>
+        <el-menu-item index="1" @click="goHome()">首页</el-menu-item>
         <el-submenu index="2">
           <template slot="title">后端</template>
           <el-menu-item index="2-1">PHP</el-menu-item>
@@ -22,12 +22,12 @@
         <el-menu-item index="6">关于小人物</el-menu-item>
       </el-menu>
     </div>
-
+  </div>
 </template>
 
 <script>
   export default {
-    name: "nav",
+    name: "Nav",
     data() {
       return {
         activeIndex: '1',
@@ -37,6 +37,11 @@
     methods: {
       handleSelect(key, keyPath) {
         console.log(key, keyPath);
+      },
+      goHome(){
+        this.$router.push({
+          name:'/index'
+        })
       }
     }
   }

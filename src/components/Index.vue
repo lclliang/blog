@@ -1,21 +1,18 @@
 <template>
-  <div>
-    <el-container>
-      <!--顶部黑色-->
-      <el-header>
-        <Header></Header>
-      </el-header>
-      <!--菜单-->
-      <div class="header-nav">
-        <Nav></Nav>
-      </div>
-      <!--内容-->
-      <el-main>
-        <Contents></Contents>
-      </el-main>
-    </el-container>
+  <el-container class="is-vertical">
+    <!--顶部黑色-->
 
-  </div>
+    <Header></Header>
+
+    <!--菜单-->
+
+    <Nav></Nav>
+
+    <!--内容-->
+    <el-main>
+      <Contents></Contents>
+    </el-main>
+  </el-container>
 </template>
 
 <script>
@@ -34,13 +31,6 @@
 </script>
 
 <style scoped>
-.el-header{
-  background-color:#409EFF;
-  height:auto!important;
-  padding:10px;
-}
 
-  .header-nav{
-    height: 60px;
-  }
+
 </style>
