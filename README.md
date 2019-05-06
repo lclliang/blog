@@ -21,3 +21,5 @@ npm run build --report
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 > 使用到element-ui 请自行下载
+
+[element-ui](https://element.eleme.cn/#/zh-CN/component/installation)
