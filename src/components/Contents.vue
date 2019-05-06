@@ -3,166 +3,183 @@
     <el-row :gutter="20">
 
       <el-col :span="18">
-        <el-card class="box-card" shadow="hover">
-          <div slot="header" class="clearfix">
-            <el-tag type="danger">PHP</el-tag>
-            <span>php ftp上传 + 图片服务器</span>
-            <span class="time" style="float: right; padding: 3px 0">2018-09-28 14:26:55</span>
-          </div>
-          <div class="text item">
-            服务器 centos
+        <a href="javascript:void(0)" @click="goToArticle()">
+          <el-card class="box-card" shadow="hover">
+            <div slot="header" class="clearfix">
+              <el-tag type="danger">PHP</el-tag>
+              <span>php ftp上传 + 图片服务器</span>
+              <span class="time" style="float: right; padding: 3px 0">2018-09-28 14:26:55</span>
+            </div>
+            <div class="text item">
+              服务器 centos
 
-            1.安装 vsftpd  （百度有好多文件介绍，这里就不介绍了）
+              1.安装 vsftpd  （百度有好多文件介绍，这里就不介绍了）
 
-            2.index.html
-          </div>
-          <div class="bottom clearfix">
+              2.index.html
+            </div>
+            <div class="bottom clearfix">
 
-            <span class="read-num">阅读数:<span class="num">1891</span></span>
-            <span class="pinglun-num">评论数:<span class="num">1891</span></span>
-          </div>
-        </el-card>
+              <span class="read-num">阅读数:<span class="num">1891</span></span>
+              <span class="pinglun-num">评论数:<span class="num">1891</span></span>
+            </div>
+          </el-card>
+        </a>
 
-        <el-card class="box-card" shadow="hover">
-          <div slot="header" class="clearfix">
-            <el-tag type="danger">PHP</el-tag>
-            <span>php ftp上传 + 图片服务器</span>
-            <span class="time" style="float: right; padding: 3px 0">2018-09-28 14:26:55</span>
-          </div>
-          <div class="text item">
-            服务器 centos
+        <a href="javascript:void(0)" @click="goToArticle()">
+          <el-card class="box-card" shadow="hover">
+            <div slot="header" class="clearfix">
+              <el-tag type="danger">PHP</el-tag>
+              <span>php ftp上传 + 图片服务器</span>
+              <span class="time" style="float: right; padding: 3px 0">2018-09-28 14:26:55</span>
+            </div>
+            <div class="text item">
+              服务器 centos
 
-            1.安装 vsftpd  （百度有好多文件介绍，这里就不介绍了）
+              1.安装 vsftpd  （百度有好多文件介绍，这里就不介绍了）
 
-            2.index.html
-          </div>
-          <div class="bottom clearfix">
+              2.index.html
+            </div>
+            <div class="bottom clearfix">
 
-            <span class="read-num">阅读数:<span class="num">1891</span></span>
-            <span class="pinglun-num">评论数:<span class="num">1891</span></span>
-          </div>
-        </el-card>
+              <span class="read-num">阅读数:<span class="num">1891</span></span>
+              <span class="pinglun-num">评论数:<span class="num">1891</span></span>
+            </div>
+          </el-card>
+        </a>
 
-        <el-card class="box-card" shadow="hover">
-          <div slot="header" class="clearfix">
-            <el-tag type="danger">PHP</el-tag>
-            <span>php ftp上传 + 图片服务器</span>
-            <span class="time" style="float: right; padding: 3px 0">2018-09-28 14:26:55</span>
-          </div>
-          <div class="text item">
-            服务器 centos
+        <a href="javascript:void(0)" @click="goToArticle()">
+          <el-card class="box-card" shadow="hover">
+            <div slot="header" class="clearfix">
+              <el-tag type="danger">PHP</el-tag>
+              <span>php ftp上传 + 图片服务器</span>
+              <span class="time" style="float: right; padding: 3px 0">2018-09-28 14:26:55</span>
+            </div>
+            <div class="text item">
+              服务器 centos
 
-            1.安装 vsftpd  （百度有好多文件介绍，这里就不介绍了）
+              1.安装 vsftpd  （百度有好多文件介绍，这里就不介绍了）
 
-            2.index.html
-          </div>
-          <div class="bottom clearfix">
+              2.index.html
+            </div>
+            <div class="bottom clearfix">
 
-            <span class="read-num">阅读数:<span class="num">1891</span></span>
-            <span class="pinglun-num">评论数:<span class="num">1891</span></span>
-          </div>
-        </el-card>
+              <span class="read-num">阅读数:<span class="num">1891</span></span>
+              <span class="pinglun-num">评论数:<span class="num">1891</span></span>
+            </div>
+          </el-card>
+        </a>
 
-        <el-card class="box-card" shadow="hover">
-          <div slot="header" class="clearfix">
-            <el-tag type="danger">PHP</el-tag>
-            <span>php ftp上传 + 图片服务器</span>
-            <span class="time" style="float: right; padding: 3px 0">2018-09-28 14:26:55</span>
-          </div>
-          <div class="text item">
-            服务器 centos
+        <a href="javascript:void(0)" @click="goToArticle()">
+          <el-card class="box-card" shadow="hover">
+            <div slot="header" class="clearfix">
+              <el-tag type="danger">PHP</el-tag>
+              <span>php ftp上传 + 图片服务器</span>
+              <span class="time" style="float: right; padding: 3px 0">2018-09-28 14:26:55</span>
+            </div>
+            <div class="text item">
+              服务器 centos
 
-            1.安装 vsftpd  （百度有好多文件介绍，这里就不介绍了）
+              1.安装 vsftpd  （百度有好多文件介绍，这里就不介绍了）
 
-            2.index.html
-          </div>
-          <div class="bottom clearfix">
+              2.index.html
+            </div>
+            <div class="bottom clearfix">
 
-            <span class="read-num">阅读数:<span class="num">1891</span></span>
-            <span class="pinglun-num">评论数:<span class="num">1891</span></span>
-          </div>
-        </el-card>
+              <span class="read-num">阅读数:<span class="num">1891</span></span>
+              <span class="pinglun-num">评论数:<span class="num">1891</span></span>
+            </div>
+          </el-card>
+        </a>
 
-        <el-card class="box-card" shadow="hover">
-          <div slot="header" class="clearfix">
-            <el-tag type="danger">PHP</el-tag>
-            <span>php ftp上传 + 图片服务器</span>
-            <span class="time" style="float: right; padding: 3px 0">2018-09-28 14:26:55</span>
-          </div>
-          <div class="text item">
-            服务器 centos
+        <a href="javascript:void(0)" @click="goToArticle()">
+          <el-card class="box-card" shadow="hover">
+            <div slot="header" class="clearfix">
+              <el-tag type="danger">PHP</el-tag>
+              <span>php ftp上传 + 图片服务器</span>
+              <span class="time" style="float: right; padding: 3px 0">2018-09-28 14:26:55</span>
+            </div>
+            <div class="text item">
+              服务器 centos
 
-            1.安装 vsftpd  （百度有好多文件介绍，这里就不介绍了）
+              1.安装 vsftpd  （百度有好多文件介绍，这里就不介绍了）
 
-            2.index.html
-          </div>
-          <div class="bottom clearfix">
+              2.index.html
+            </div>
+            <div class="bottom clearfix">
 
-            <span class="read-num">阅读数:<span class="num">1891</span></span>
-            <span class="pinglun-num">评论数:<span class="num">1891</span></span>
-          </div>
-        </el-card>
+              <span class="read-num">阅读数:<span class="num">1891</span></span>
+              <span class="pinglun-num">评论数:<span class="num">1891</span></span>
+            </div>
+          </el-card>
+        </a>
 
-        <el-card class="box-card" shadow="hover">
-          <div slot="header" class="clearfix">
-            <el-tag type="danger">PHP</el-tag>
-            <span>php ftp上传 + 图片服务器</span>
-            <span class="time" style="float: right; padding: 3px 0">2018-09-28 14:26:55</span>
-          </div>
-          <div class="text item">
-            服务器 centos
+        <a href="javascript:void(0)" @click="goToArticle()">
+          <el-card class="box-card" shadow="hover">
+            <div slot="header" class="clearfix">
+              <el-tag type="danger">PHP</el-tag>
+              <span>php ftp上传 + 图片服务器</span>
+              <span class="time" style="float: right; padding: 3px 0">2018-09-28 14:26:55</span>
+            </div>
+            <div class="text item">
+              服务器 centos
 
-            1.安装 vsftpd  （百度有好多文件介绍，这里就不介绍了）
+              1.安装 vsftpd  （百度有好多文件介绍，这里就不介绍了）
 
-            2.index.html
-          </div>
-          <div class="bottom clearfix">
+              2.index.html
+            </div>
+            <div class="bottom clearfix">
 
-            <span class="read-num">阅读数:<span class="num">1891</span></span>
-            <span class="pinglun-num">评论数:<span class="num">1891</span></span>
-          </div>
-        </el-card>
+              <span class="read-num">阅读数:<span class="num">1891</span></span>
+              <span class="pinglun-num">评论数:<span class="num">1891</span></span>
+            </div>
+          </el-card>
+        </a>
 
-        <el-card class="box-card" shadow="hover">
-          <div slot="header" class="clearfix">
-            <el-tag type="danger">PHP</el-tag>
-            <span>php ftp上传 + 图片服务器</span>
-            <span class="time" style="float: right; padding: 3px 0">2018-09-28 14:26:55</span>
-          </div>
-          <div class="text item">
-            服务器 centos
+        <a href="javascript:void(0)" @click="goToArticle()">
+          <el-card class="box-card" shadow="hover">
+            <div slot="header" class="clearfix">
+              <el-tag type="danger">PHP</el-tag>
+              <span>php ftp上传 + 图片服务器</span>
+              <span class="time" style="float: right; padding: 3px 0">2018-09-28 14:26:55</span>
+            </div>
+            <div class="text item">
+              服务器 centos
 
-            1.安装 vsftpd  （百度有好多文件介绍，这里就不介绍了）
+              1.安装 vsftpd  （百度有好多文件介绍，这里就不介绍了）
 
-            2.index.html
-          </div>
-          <div class="bottom clearfix">
+              2.index.html
+            </div>
+            <div class="bottom clearfix">
 
-            <span class="read-num">阅读数:<span class="num">1891</span></span>
-            <span class="pinglun-num">评论数:<span class="num">1891</span></span>
-          </div>
-        </el-card>
+              <span class="read-num">阅读数:<span class="num">1891</span></span>
+              <span class="pinglun-num">评论数:<span class="num">1891</span></span>
+            </div>
+          </el-card>
+        </a>
 
-        <el-card class="box-card" shadow="hover">
-          <div slot="header" class="clearfix">
-            <el-tag type="danger">PHP</el-tag>
-            <span>php ftp上传 + 图片服务器</span>
-            <span class="time" style="float: right; padding: 3px 0">2018-09-28 14:26:55</span>
-          </div>
-          <div class="text item">
-            服务器 centos
+        <a href="javascript:void(0)" @click="goToArticle()">
+          <el-card class="box-card" shadow="hover">
+            <div slot="header" class="clearfix">
+              <el-tag type="danger">PHP</el-tag>
+              <span>php ftp上传 + 图片服务器</span>
+              <span class="time" style="float: right; padding: 3px 0">2018-09-28 14:26:55</span>
+            </div>
+            <div class="text item">
+              服务器 centos
 
-            1.安装 vsftpd  （百度有好多文件介绍，这里就不介绍了）
+              1.安装 vsftpd  （百度有好多文件介绍，这里就不介绍了）
 
-            2.index.html
-          </div>
-          <div class="bottom clearfix">
+              2.index.html
+            </div>
+            <div class="bottom clearfix">
 
-            <span class="read-num">阅读数:<span class="num">1891</span></span>
-            <span class="pinglun-num">评论数:<span class="num">1891</span></span>
-          </div>
-        </el-card>
+              <span class="read-num">阅读数:<span class="num">1891</span></span>
+              <span class="pinglun-num">评论数:<span class="num">1891</span></span>
+            </div>
+          </el-card>
+        </a>
 
+        <!--分页-->
         <el-pagination
           background
           layout="prev, pager, next"
@@ -215,6 +232,15 @@
     name: "Contents",
     data() {
       return {}
+    },
+    methods: {
+      goToArticle() {
+
+        this.$router.push({
+          name: '/article',
+
+        })
+      }
     }
   }
 </script>

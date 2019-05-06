@@ -13,8 +13,6 @@
       <el-main>
         <Contents></Contents>
       </el-main>
-
-
     </el-container>
 
   </div>
